@@ -214,19 +214,19 @@ nav{
 }
 
 footer{
-    
     background-color: #242424;
-    
-    
 }
 
 footer ul {
     display: flex;
     list-style: none;
-   flex-direction: column;}
+    padding: 5px 0 10px;
+    align-items: center;
+    flex-direction: column;
+    }
 
 footer ul li{
-    padding: 5px 0;
+    padding: 5px 0 ;
     color: #ffffff;
 }
 
