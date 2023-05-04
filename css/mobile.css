@@ -2,14 +2,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body{
-    /* background-color: aqua; */
-}
+
 
 .heading{
-    background-color: #FA4B10;
+    padding: 20px;  
+    color:#FA4B10;  
     text-align: center;
-    
 }
 
 nav{
@@ -46,7 +44,6 @@ nav{
     box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .home_text h1{
@@ -54,7 +51,8 @@ nav{
     color: #242424;
     font-weight: bold;
     margin-bottom: 10px;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
+    text-align: center;    
 }
 
 .home_text p{
@@ -65,20 +63,21 @@ nav{
 
 .home_text_list {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 
 .home_text_list ul li{
     padding: 10px ;
     list-style: none;
-   line-height: 21px;
+    color: #0955b2;
+    line-height: 21px;
    transition: all linear 0.5s;
 }
 
 .home_text_list ul li:hover{
-    color: #0955b2;
+  color: #f44336;
 }
+
 
 .home_text_list_button a:link, a:visited {
     color: white;
@@ -88,7 +87,7 @@ nav{
     text-decoration: none;
     display: inline-block;
     transition: all linear 0.5s;
-    background-color:  #0955b2;
+    background-color:    #0955b2;
   }
   
   a:hover, a:active {
@@ -107,5 +106,127 @@ nav{
     width: 80%;
     height: 80%;
 
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.portfolio_img {
+    display: flex;
+    padding:0 0 20px;
+    justify-content: center;
+}
+
+.portfolio_img img{
+    width: 80%;
+}
+
+.portfolio_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.portfolio_text_heading{
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.portfolio_text h1{
+    font-size: 35px;
+    color: #242424;
+    font-weight: bold;
+    letter-spacing: 2px;  
+   
+}
+
+.portfolio_text p{
+    color:#5a5a5a;
+    padding: 0 0 20px; 
+
+}
+
+
+
+.service{
+    background-color: #fbfbfb; 
+}
+
+.service_box{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.service_txt {
+    display: flex;
+    margin: 20px 0;
+}
+
+.service_txt h1{
+    font-size: 35px;
+    color: #FA4B10;
+    font-weight: bold;
+    text-align: center;  
+    letter-spacing: 2px;
+}
+
+.service_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service_card{
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.service_card_image{
+    height: 50%;
+    display: flex;
+
+    
+}
+
+.service_card_image img{
+    width: 100%;
+    
+}
+
+
+.service_card_txt {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service_card_txt h3{
+    padding:  10px 0;
+}
+.service_card_txt p{
+    padding: 0 20px;
+}
+
+footer{
+    
+    background-color: #242424;
+    
+    
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+   flex-direction: column;}
+
+footer ul li{
+    padding: 5px 0;
+    color: #ffffff;
 }
 
