@@ -9,7 +9,9 @@
     display: flex;
 }
 .heading{
-    display: none;
+    color:#FA4B10;  
+    text-align: center;
+    padding: 10px 0 10px;  
 }
 
 nav{
@@ -140,9 +142,7 @@ nav{
     padding: 0 50% 0 0;
 }
 
-.portfolio_icons{
-    margin-top: 20px;
-}
+
 
 .service{
     width: 100%;
