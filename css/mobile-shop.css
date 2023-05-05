@@ -14,7 +14,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-/*     background-color: #19A7CE; */
 
 }
 
@@ -32,6 +31,17 @@
 .box_one:hover{
     color: #2355B2;
     background-color:  #ffffff;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+p{
+    padding:5px 15px ;
+    margin-top: 10px;
+  
 }
 
 img{
